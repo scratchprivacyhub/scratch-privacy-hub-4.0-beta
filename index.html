@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Scratch Privacy Hub</title>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <div class="header">
+            <p>Scratch Privacy Hub</p>
+        </div>
+        <div class="app">
+            <div class="type-invalid" style="display:none;">
+                To get privacy information, go to a Scratch project or user page. Make sure you're using the official Scratch website.
+            </div>
+            <div class="type-user" style="display:none;">
+                <div class="user-flex">
+                    <img src="./brokenimg.png" class="user-img" />
+                    <div class="user-data">
+                        <p class="user-title">title</p>
+                        <p class="user-author">author</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-track">
+                    <p><img src='./track-unknown.png' /></p>
+                    <p class="user-track-data">Not enough data to determine track record.</p>
+                </div>
+            </div>
+            <div class="type-project" style="display:none;">
+                <div class="sb3-flex">
+                    <img src="./brokenimg.png" class="sb3-img" />
+                    <div class="sb3-data">
+                        <p class="sb3-title">title</p>
+                        <p class="sb3-author">author</p>
+                    </div>
+                </div>
+                <hr>
+                <div style="display: none" class="sb3-unknown">
+                    <p><img src='./track-unknown.png' /></p>
+                    <p>No privacy information is available on this project.</p>
+                </div>
+                <div class="sb3-data">
+                    <p>The developer handles data in the following ways:</p>
+                    <ul></ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p style='text-align: center'>
+                <a style="color:white" target="_blank" href="https://github/scratchprivacyhub/scratch-privacy-hub-4.0-beta">GitHub</a>
+            </p>
+        </div>
+        <script src="grab.js"></script>
+    </body>
+</html>
