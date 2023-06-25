@@ -1,0 +1,93 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    cursor: default;
+    font-size: 16px;
+}
+
+:root {
+    --width: 360px;
+}
+
+html {
+    height: 420px;
+    width: var(--width);
+    background-color: white;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+h1,h2,h3,h4,p {
+    margin: 0px;
+}
+
+.header {
+    text-align: center;
+    background-color: rgb(85, 149, 208);
+    color: white;
+    font-size: 22px;
+    width: calc(var(--width) - 8px);
+    padding: 8px;
+    height: 25px;
+}
+
+.app {
+    height: 338px;
+    width: var(--width);
+    overflow: auto;
+}
+
+.footer {
+    text-align: center;
+    background-color: rgb(85, 149, 208);
+    color: white;
+    width: calc(var(--width) - 8px);
+    padding: 8px;
+    height: 25px;
+}
+
+.user-flex {
+    display: flex;
+    width: var(--width);
+    flex-direction: row;
+}
+.user-img {
+    height: 48px;
+    width: 48px;
+}
+.user-data {
+    width: calc(var(--width) - 48px);
+}
+.user-title {
+    font-size: 26px;
+}
+.user-author {
+    font-size: 14px;
+}
+
+.sb3-flex {
+    display: flex;
+    width: var(--width);
+    flex-direction: row;
+}
+.sb3-img {
+    height: 48px;
+    width: 48px;
+}
+.sb3-data {
+    width: calc(var(--width) - 48px);
+}
+.sb3-title {
+    font-size: 26px;
+}
+.sb3-author {
+    font-size: 14px;
+}
+
+.user-track, .sb3-unknown {
+    text-align: center;
+}
